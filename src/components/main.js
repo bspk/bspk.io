@@ -11,7 +11,7 @@ const Main = ({...props}) => {
   return (
 		<Hero>
 			<Hero.Body>
-				<Columns>
+				<Columns className="is-vcentered">
 					<Columns.Column size='one-third'>
 						<img src={bspkLogo} alt="bspk" />
             <h3 className="subtitle">The perfect fit for complex problems.</h3>
