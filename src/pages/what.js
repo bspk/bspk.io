@@ -16,14 +16,13 @@ const PageContent = () => (
   
       <p>
         <b>Bespoke Engineering</b> provides consulting services specializing in usable, internet-scale security architectures. We offer a variety of services including
-        <ul>
-          <li>architecture review,</li>
-          <li>protocol design,</li>
-          <li>security analysis,</li>
-          <li>seminars,</li>
-          <li>standards alignment, and</li>
-          <li>system implementation.</li>
-        </ul>
+        architecture review,
+        protocol design,
+        security analysis,
+        seminars,
+        standards alignment, and
+        system implementation.
+        
       </p>
   
       <p>

@@ -14,25 +14,25 @@ const Footer = () => {
   					<article className="media center">
   						<span className="icon">
   							<a href='https://twitter.com/bspkio'>
-  								<FaTwitter size="fa-2x" color="blue" />
+  								<FaTwitter size="1.2em" color="blue" />
   							</a>
   						</span>
   						&nbsp;
   						<span className="icon">
   							<a href='https://github.com/bspk'>
-  								<FaGithub size="fa-2x" color="black" />
+  								<FaGithub size="1.2em" color="black" />
   							</a>
   						</span>
   						&nbsp;
   						<span className="icon">
   							<a href='https://medium.com/@justinsecurity'>
-  								<FaMedium size="fa-2x" color="green" />
+  								<FaMedium size="1.2em" color="green" />
   							</a>
   						</span>
   						&nbsp;
               <span className="icon">
                 <Link to="/contact/">
-                  <FaEnvelope size="fa-2x" color="orange" />
+                  <FaEnvelope size="1.2em" color="orange" />
                 </Link>
               </span>
   					</article>
