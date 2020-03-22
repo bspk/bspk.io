@@ -20,8 +20,16 @@ const PageContent = () => (
       	</p>
 
       	<p>
-          <b>Gridlock: Boston</b> is currently in pre-production.
+          <b>Gridlock: Boston</b> is currently in pre-production. Copies should be available for sale online summer 2020.
         </p>
+    
+        <p>Download the instructions:
+          <ul>
+            <li><a href="https://bspk.io/games/gridlock/gridlock-instructions-en.pdf">🇺🇸 In English</a></li>
+            <li><a href="https://bspk.io/games/gridlock/gridlock-instructions-de.pdf">🇩🇪 In German</a></li>
+          </ul>
+        </p>
+            
       </Columns.Column>
       <Columns.Column size="one-fifth">
           <Card>
