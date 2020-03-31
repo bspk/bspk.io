@@ -24,16 +24,25 @@ const PageContent = () => (
       	</p>
 
       	<p>
-      		Ready to play? A physical version of the expansion pack can be purchased through <b>The Game Crafter</b>. You can also download and print out your own cards from the <a href="CAI_Identiverse_2019.pdf">PDF version for 2019</a>. Note that neither of these options contain the base game of Cards Against Humanity and that's not our problem.
+      		Ready to play? A physical version of the expansion pack can be purchased through <b>The Game Crafter</b>. You can also download and print out your own cards from the <a href="CAI_Identiverse_2019.pdf">PDF version for 2019</a> and the <a href="CAI_Identiverse_2020.pdf">PDF version for 2020</a>. Note that neither of these options contain the base game of Cards Against Humanity and that's not our problem.
       	</p>
       </Columns.Column>
       <Columns.Column size="one-fifth">
           <Card>
             <Card.Image src={cards} alt="Cards Against Identity" />
             <Card.Content>
-              <a href="https://www.thegamecrafter.com/games/cards-against-identity">
-              &raquo; Buy Cards Against Identity 2019
-              </a>
+              <ul>
+                <li>
+                  <a href="https://www.thegamecrafter.com/games/cards-against-identity-2019">
+                  &raquo; Buy Cards Against Identity 2019
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.thegamecrafter.com/games/cards-against-identity-2020">
+                  &raquo; Buy Cards Against Identity 2020
+                  </a>
+                </li>
+              </ul>
             </Card.Content>
           </Card>
       </Columns.Column>

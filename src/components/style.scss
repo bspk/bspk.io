@@ -78,6 +78,15 @@
 .games {
   background-color: black;
   color: white;
+  font-size: 1.2em;
+}
+
+.games p {
+  margin: 1em;
+}
+
+.games a {
+  font-weight: bold;
 }
 
 .games .title {
@@ -88,4 +97,10 @@
   width: auto;
   height: 150px;
   margin: auto;
+}
+
+.games .card figure img {
+  padding: 1.5em;
+  background-color: black;
+  border: 2px white solid;
 }
