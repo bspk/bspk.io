@@ -14,7 +14,7 @@ const Main = ({...props}) => {
 				<Columns className="is-vcentered">
 					<Columns.Column size='one-third'>
 						<img src={bspkLogo} alt="bspk" />
-            <h3 className="subtitle">The perfect fit for complex problems.</h3>
+            <h3 className="subtitle has-text-right">The perfect fit for complex problems.</h3>
 					</Columns.Column>
 					<Columns.Column>
 						<Info />
