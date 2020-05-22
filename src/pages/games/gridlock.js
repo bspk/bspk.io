@@ -35,8 +35,8 @@ const PageContent = () => (
           <Card>
             <Card.Image src={gridlock} alt="Gridlock: Boston" />
             <Card.Content>
-              <a href="http://gridlock.info/">
-              &raquo; Get more information about Gridlock: Boston
+              <a href="https://www.kickstarter.com/projects/zeronine/gridlock-boston">
+              &raquo; Kitckstarter for Gridlock: Boston
               </a>
             </Card.Content>
           </Card>
