@@ -87,6 +87,7 @@
 
 .games a {
   font-weight: bold;
+  color: $cyan;
 }
 
 .games .title {
@@ -103,4 +104,10 @@
   padding: 1.5em;
   background-color: black;
   border: 2px white solid;
+}
+
+.buy-now {
+  padding: 2em;
+  text-align: center;
+  background-color: $warning-light;
 }

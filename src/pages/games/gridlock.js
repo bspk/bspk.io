@@ -20,7 +20,7 @@ const PageContent = () => (
       	</p>
 
       	<p>
-          <b>Gridlock: Boston</b> is currently in pre-production. Copies should be available for sale online summer 2020.
+          <b>Gridlock: Boston</b> is currently in limited production, and limited edition copies are available for sale now! Click the button in the side bar to check out with PayPal.
         </p>
     
         <p>Download the instructions:
@@ -38,6 +38,14 @@ const PageContent = () => (
               <a href="https://www.kickstarter.com/projects/zeronine/gridlock-boston">
               &raquo; Kitckstarter for Gridlock: Boston
               </a>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" className="buy-now">
+                Order the Kickstarter Standard Edition while supplies last.
+                <input type="hidden" name="cmd" value="_s-xclick" />
+                <input type="hidden" name="hosted_button_id" value="DDW2STQTRBF62" />
+                <button type="submit" className="button is-warning is-medium is-rounded">Buy Now!</button>
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+              
             </Card.Content>
           </Card>
       </Columns.Column>
