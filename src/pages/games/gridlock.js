@@ -36,7 +36,7 @@ const PageContent = () => (
             <Card.Image src={gridlock} alt="Gridlock: Boston" />
             <Card.Content>
               <a href="https://www.kickstarter.com/projects/zeronine/gridlock-boston">
-              &raquo; Kitckstarter for Gridlock: Boston
+              &raquo; Kickstarter for Gridlock: Boston
               </a>
               <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" className="buy-now">
                 Order the Kickstarter Standard Edition while supplies last.
