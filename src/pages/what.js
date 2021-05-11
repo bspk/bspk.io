@@ -13,7 +13,6 @@ const PageContent = () => (
     <h1 className="title is-hidden-desktop">What We Do</h1>
 
     <Content>
-  
       <p>
         <b>Bespoke Engineering</b> provides consulting services specializing in usable, internet-scale security architectures. We offer a variety of services including
         architecture review,
@@ -32,7 +31,6 @@ const PageContent = () => (
       <p>
         Please <Link to="/contact/">contact us</Link> for rates and availability.
       </p>
-  
     </Content>
   </Section>
 );

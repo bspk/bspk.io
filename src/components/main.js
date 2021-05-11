@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { Link } from 'gatsby';
-import { Button, Tabs, Hero, Container, Section, Level, Form, Columns, Content } from 'react-bulma-components';
+import { Button, Tabs, Hero, Container, Section, Level, Form, Columns, Content, Tile } from 'react-bulma-components';
 
 import './style.scss';
 
@@ -28,10 +28,28 @@ const Main = ({...props}) => {
 const Info = ({...props}) => {
 	return (
 		<div className="mainMenu">
-      <Link className="button is-fullwidth is-large" to="/what/">What We Do</Link>
-      <Link className="button is-fullwidth is-large" to="/who/">Who We Are</Link>
-      <Link className="button is-fullwidth is-large" to="/projects/">Our Projects</Link>
-      <Link className="button is-fullwidth is-large" to="/contact/">Get In Touch</Link>
+      <Tile kind="ancestor">
+        <Tile kind="parent" size={6} vertical>
+          <Tile kind="child">
+            <Link className="button is-fullwidth is-large" to="/what/">What We Do</Link>
+          </Tile>
+          <Tile kind="child" />
+          <Tile kind="child">
+            <Link className="button is-fullwidth is-large" to="/who/">Who We Are</Link>
+          </Tile>
+          <Tile kind="child" />
+        </Tile>
+        <Tile kind="parent" size={6} vertical>
+          <Tile kind="child" />
+          <Tile kind="child">
+            <Link className="button is-fullwidth is-large" to="/projects/">Our Projects</Link>
+          </Tile>
+          <Tile kind="child" />
+          <Tile kind="child">
+            <Link className="button is-fullwidth is-large" to="/contact/">Get In Touch</Link>
+          </Tile>
+        </Tile>
+      </Tile>
     </div>
 	);
 }

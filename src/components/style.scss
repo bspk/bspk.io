@@ -29,36 +29,43 @@
 }
 
 .mainMenu {
-  background: linear-gradient(to bottom, 
-    #ffffff, 
-    #dddddd 5%, 
-    #dddddd 95%, 
-    #ffffff
-  );
-  padding: 6px 0px;
+  font-weight: bold;
+  text-size: 3rem;
 }
 
 .mainMenu .button {
   border-radius: 0;
   border: 0;
-  background: linear-gradient(to bottom, 
-    #dddddd 0%, 
-    #ffffff 5%, 
-    #ffffff 95%, 
-    #dddddd 100%
-  );
+  background: #fafafa;
+  clip-path: 
+    polygon(
+      0% 50%,     /* top left */
+      2% 0%,     /* top left */
+      98% 0%,    /* top right */
+      100% 50%,   /* top right */
+      100% 50%,  /* bottom right */
+      98% 100%,  /* bottom right */
+      2% 100%,   /* bottom left */
+      0 50%      /* bottom left */
+    );
 }
 
 .mainMenu .button:hover {
   border-radius: 0;
   border: 0;
-  background: linear-gradient(to bottom, 
-    #dddddd 0%, 
-    #a51e22 5%, 
-    #a51e22 95%, 
-    #dddddd 100%
-  );
+  background: #a51e22;
   color: white;
+  clip-path: 
+    polygon(
+      0% 50%,     /* top left */
+      2% 0%,     /* top left */
+      98% 0%,    /* top right */
+      100% 50%,   /* top right */
+      100% 50%,  /* bottom right */
+      98% 100%,  /* bottom right */
+      2% 100%,   /* bottom left */
+      0 50%      /* bottom left */
+    );
 }
 
 .bspk-tabs .navbar-brand .navbar-item:hover {
