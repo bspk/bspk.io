@@ -19,7 +19,7 @@ const PageContent = () => (
       </p>
   
       <p>
-        <a href="https://oauth.xyz/">XYZ</a> is a next-generation authorization protocol designed to pick up where OAuth 2.0 leaves off. The ideas in this project are being discussed in the <a href="https://www.ietf.org/mailman/listinfo/txauth">TxAuth</a> mailing list in the IETF and could lead to a future security standard.
+        <a href="https://oauth.xyz/">XYZ</a> is a next-generation authorization protocol designed to pick up where OAuth 2.0 leaves off. The ideas in this project are being discussed in the <a href="https://www.ietf.org/mailman/listinfo/txauth">GNAP</a> working group in the IETF.
       </p>
       
       <p>

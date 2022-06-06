@@ -15,11 +15,11 @@ const PageContent = () => (
     <Content>
   
     <p>
-      <b>Bespoke Engineering, LLC</b> is an independent consultancy based in Boston, MA, USA specializing in internet securirty and identity.
+      <b>Bespoke Engineering, LLC</b> is an independent consultancy based in Boston, MA, USA specializing in internet security and identity.
     </p>
   
     <p>
-      Founder and Principal Architect <b>Justin Richer</b> brings two decades of industry experience in security, identity, architecture, standards, design, and collaboration. Justin is a respected contributor to a variety of standards, specifications, and software projects and routinely speaks at industry conferences around the world. In particular, Justin has contributed significantly to <b>OAuth 2</b> and <b>OpenID Connect</b> and the ecosystem of specifications around them.
+      Founder and Principal Architect <b>Justin Richer</b> brings two decades of industry experience in security, identity, architecture, standards, design, and collaboration. Justin is a respected contributor to a variety of standards, specifications, and software projects and routinely speaks at industry conferences around the world. In particular, Justin has contributed significantly to <b>OAuth 2</b> and <b>OpenID Connect</b> and the ecosystem of specifications around them, including next-generation protocols such as <b>GNAP</b>.
     </p>
   
     <p>
