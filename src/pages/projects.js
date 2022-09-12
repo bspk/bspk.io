@@ -19,7 +19,7 @@ const PageContent = () => (
       </p>
   
       <p>
-        <a href="https://oauth.xyz/">XYZ</a> is a next-generation authorization protocol designed to pick up where OAuth 2.0 leaves off. The ideas in this project are being discussed in the <a href="https://www.ietf.org/mailman/listinfo/txauth">GNAP</a> working group in the IETF.
+        <a href="https://oauth.xyz/">XYZ</a> is an implementation of GNAP, a next-generation authorization protocol designed to pick up where OAuth 2.0 leaves off. The <a href="https://www.ietf.org/mailman/listinfo/txauth">GNAP</a> working group in the IETF is actively developing this protocol.
       </p>
       
       <p>
@@ -27,7 +27,7 @@ const PageContent = () => (
       </p>
   
       <p>
-        <a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/">MITREid Connect</a> is a stable reference implementation of OAuth 2.0 and OpenID Connect written in Java. Originally developed by the MITRE Corporation and the MIT Trust Consoritum, MITREid Connect is now maintained as needed by Bespoke Engineering. 
+        <a href="https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/">MITREid Connect</a> is a stable reference implementation of OAuth 2.0 and OpenID Connect written in Java,  Originally developed by the MITRE Corporation and the MIT Trust Consoritum.
       </p>
       
       <p>

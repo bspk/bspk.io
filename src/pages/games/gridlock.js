@@ -16,14 +16,14 @@ const PageContent = () => (
       <Columns.Column size="four-fifths">
         <h1 className="title is-1">Gridlock: Boston</h1>
       	<p>
-          <b>Gridlock: Boston</b> is a competitve board game for 2-4 players about driving around the city where none of the roads make sense and everything is always changing on you. 
+          <b>Gridlock: Boston</b> is a competitve board game for 2-4 players about driving around the city where none of the roads make sense and everything is always changing on you. In this game, you'll build out a road network through the city and drive around visiting famous landmarks and areas. But be careful, these roads will change around you as other players are building out their own routes. And don't forget, everyone can use the same roads, so keep an eye on what's happening all over town.
       	</p>
 
       	<p>
-          <b>Gridlock: Boston</b> is currently in limited production, and limited edition copies are available for sale now! Click the button in the side bar to check out with PayPal.
+          <b>Gridlock: Boston</b> is currently out of print. We'd love to create a second edition, though, so if that's something you're in terested in, get in touch and let us know!
         </p>
     
-        <p>Download the instructions:
+        <p>Already have the game? Download the instructions:
           <ul>
             <li><a href="https://bspk.io/games/gridlock/gridlock-instructions-en.pdf">🇺🇸 In English</a></li>
             <li><a href="https://bspk.io/games/gridlock/gridlock-instructions-de.pdf">🇩🇪 In German</a></li>
@@ -38,14 +38,6 @@ const PageContent = () => (
               <a href="https://www.kickstarter.com/projects/zeronine/gridlock-boston">
               &raquo; Kickstarter for Gridlock: Boston
               </a>
-              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" className="buy-now">
-                Order the Kickstarter Standard Edition while supplies last.
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="DDW2STQTRBF62" />
-                <button type="submit" className="button is-warning is-medium is-rounded">Buy Now!</button>
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-              </form>
-              
             </Card.Content>
           </Card>
       </Columns.Column>
