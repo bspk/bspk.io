@@ -23,6 +23,9 @@ const PageContent = () => (
       <Columns.Column size="4" offset="2">
         <Link to="/games/cards/"><Image src={cards} alt="Cards Against Identity" /></Link>
       </Columns.Column>
+      <Columns.Column size="half" offset="one-quarter" className="has-text-centered">
+        <Link to="/">Bespoke Engineering Main Page ⤴️</Link>
+      </Columns.Column>
     </Columns>
   </Section>
 );
