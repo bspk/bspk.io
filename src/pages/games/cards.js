@@ -52,6 +52,11 @@ const PageContent = () => (
                   &raquo; Buy Cards Against Identity 2023
                   </a>
                 </li>
+                <li>
+                  <a href="https://www.thegamecrafter.com/games/cards-against-identity-2024">
+                  &raquo; Buy Cards Against Identity 2024
+                  </a>
+                </li>
               </ul>
             </Card.Content>
           </Card>
