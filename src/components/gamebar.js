@@ -6,6 +6,7 @@ import { Button, Tabs, Hero, Container, Section, Level, Form, Columns, Content, 
 import bspkGames from '../images/bspk-games.png';
 import gridlock from '../images/gridlock.png';
 import cards from '../images/cards.png';
+import natturuval from '../images/natturuval-dark.png';
 
 const GameBar = ({...props}) => {
   
@@ -26,6 +27,9 @@ const GameBar = ({...props}) => {
         </Link>
         <Link className="is-large navbar-item" to="/games/cards/">
           <img src={cards} alt="Cards Against Identity" height="28" />
+        </Link>
+        <Link className="is-large navbar-item" to="/games/natturuval/">
+          <img src={natturuval} alt="Náttúruval" height="28" />
         </Link>
       </Navbar.Container>
       <Navbar.Container position="end">

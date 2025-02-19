@@ -103,9 +103,10 @@
 }
 
 .games-index img {
-  width: auto;
-  height: 150px;
+  width: 100%;
+  max-height: 150px;
   margin: auto;
+  object-fit: contain;
 }
 
 .games .card figure img {

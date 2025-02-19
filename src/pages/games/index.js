@@ -7,6 +7,7 @@ import Helmet from '../../components/helmet';
 import Footer from '../../components/footer';
 import bspkGames from '../../images/bspk-games.png';
 import gridlock from '../../images/gridlock.png';
+import natturuval from '../../images/natturuval.png';
 import cards from '../../images/cards.png';
 
 const PageContent = () => (
@@ -17,11 +18,14 @@ const PageContent = () => (
       </Columns.Column>
     </Columns>
     <Columns>
-      <Columns.Column size="4" offset="1">
+      <Columns.Column size="3" offset="1">
         <Link to="/games/gridlock/"><Image src={gridlock} alt="Gridlock: Boston" /></Link>
       </Columns.Column>
-      <Columns.Column size="4" offset="2">
+      <Columns.Column size="3" offset="1">
         <Link to="/games/cards/"><Image src={cards} alt="Cards Against Identity" /></Link>
+      </Columns.Column>
+      <Columns.Column size="3" offset="1">
+        <Link to="/games/natturuval/"><Image src={natturuval} alt="Náttúruval" /></Link>
       </Columns.Column>
       <Columns.Column size="half" offset="one-quarter" className="has-text-centered">
         <Link to="/">Bespoke Engineering Main Page ⤴️</Link>
