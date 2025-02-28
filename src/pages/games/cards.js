@@ -43,6 +43,9 @@ const PageContent = () => (
                   </a>
                 </li>
                 <li>
+                  &raquo; There is no Cards Against Identity 2021
+                </li>
+                <li>
                   <a href="https://www.thegamecrafter.com/games/cards-against-identity-2022">
                   &raquo; Buy Cards Against Identity 2022
                   </a>
@@ -55,6 +58,11 @@ const PageContent = () => (
                 <li>
                   <a href="https://www.thegamecrafter.com/games/cards-against-identity-2024">
                   &raquo; Buy Cards Against Identity 2024
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.thegamecrafter.com/games/cards-against-identity-2025">
+                  &raquo; Buy Cards Against Identity 2025
                   </a>
                 </li>
               </ul>
